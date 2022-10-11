@@ -1,0 +1,17 @@
+{
+    "name": "asadbek/php_mvc",
+    "authors": [
+        {
+            "name": "Asadbek Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+      "ext-pdo": "*"
+    }
+}
